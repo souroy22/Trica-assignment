@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     background-color: #d9d7d7;
+     font-family: 'PT Serif', serif;
+}
+
+table {
+     margin-top: 20px;
+     border-collapse: collapse; 
+}
+
+th,
+td {
+     border-bottom: 1px solid black;
+}
+
+th {
+     font-size: 21px;
+}
+
+td {
+     /* border-left: 1px solid black;
+     border-right: 1px solid black; */
+
+     transition: all ease-in-out 0.4s;
+     font-size: 19px;
+     border: 1px solid black;
+}
+
+tr {
+     border-bottom: 1px solid black;
+}
+
+td:hover {
+     background-color: rgb(70, 138, 138);
+     padding: 0;
+     box-shadow: 5px 5px 5px gray;
+     cursor: pointer;
+     transform: scale(1.1);
+     border: none;
+}
+
+td:nth-child(1):hover {
+     width: 140px;
+     border-style: none;
+     background-color: #d9d7d7;
+     box-shadow: 0 0 0;
+     transform: scale(1.0);
+     cursor: auto;
+}
+
+th,
+td {
+     width: 60px;
+     height: 50px;
+     text-align: center;
+}
+
+td:nth-child(1) {
+     font-weight: bolder;
+     width: 140px;
+     border-style: none;
+     border-left: 1px solid black;
+}
+
+th:nth-child(1) {
+     border-style: none;
+}
+
+table {
+     margin: auto;
+}
